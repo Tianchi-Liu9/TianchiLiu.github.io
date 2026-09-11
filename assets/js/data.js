@@ -103,25 +103,25 @@ const RESEARCH = {
 
 const EDUCATION = {
   en: [
-    { period: "2021 – 2025", deg: "Ph.D. in Speech Processing", org: "National University of Singapore" },
-    { period: "2018 – 2019", deg: "M.Sc. in Electronic & Computer Engineering", org: "National University of Singapore" },
+    { period: "Jan. 2021 – Jan. 2025", deg: "Ph.D. in Speech Processing", org: "National University of Singapore" },
+    { period: "Jul. 2018 – Jul. 2019", deg: "M.Sc. in Electronic & Computer Engineering", org: "National University of Singapore" },
   ],
   zh: [
-    { period: "2021 – 2025", deg: "语音处理 博士", org: "National University of Singapore" },
-    { period: "2018 – 2019", deg: "电子与计算机工程 硕士（计算机工程方向）", org: "National University of Singapore" },
+    { period: "2021.01 – 2025.01", deg: "语音处理 博士", org: "National University of Singapore" },
+    { period: "2018.07 – 2019.07", deg: "电子与计算机工程 硕士（计算机工程方向）", org: "National University of Singapore" },
   ],
 };
 
 const EXPERIENCE = {
   en: [
-    { period: "2025.02 – Now",   role: "Senior Researcher · 'Project Up' (青云计划)", org: "Tencent, Singapore" },
-    { period: "2020.09 – 2025.02", role: "Senior Research Engineer", org: "A*STAR, Singapore" },
-    { period: "2019.06 – 2020.08", role: "AI Scientist", org: "PENSEES R&D Center, Singapore" },
+    { period: "2025 – 2026",   role: "Senior Researcher · 'Project Up' (青云计划)", org: "Tencent, Singapore" },
+    { period: "2020 – 2025", role: "Senior Research Engineer", org: "A*STAR, Singapore" },
+    { period: "2019 – 2020", role: "AI Scientist", org: "PENSEES R&D Center, Singapore" },
   ],
   zh: [
-    { period: "2025.02 – 至今",   role: "高级研究员 · 青云计划", org: "Tencent, Singapore" },
-    { period: "2020.09 – 2025.02", role: "高级研究工程师", org: "A*STAR, Singapore" },
-    { period: "2019.06 – 2020.08", role: "AI 科学家", org: "PENSEES R&D Center, Singapore" },
+    { period: "2025 – 2026",   role: "高级研究员 · 青云计划", org: "Tencent, Singapore" },
+    { period: "2020 – 2025", role: "高级研究工程师", org: "A*STAR, Singapore" },
+    { period: "2019 – 2020", role: "AI 科学家", org: "PENSEES R&D Center, Singapore" },
   ],
 };
 
@@ -192,6 +192,7 @@ const PUBLICATIONS = [
     venue: "EMNLP", year: 2026, cat: "tts", corr: true,
     tasks: ["TTS"], method: { en: "Emotion Transition", zh: "情感过渡" },
     featured: true, teaser: "assets/img/teasers/emotra.png", logo: "assets/img/logos/emotra.png",
+    stars: "Liu-Tianchi/EmoTra-TTS",
     links: [
       { label: "arXiv", url: "https://arxiv.org/abs/2608.23791" },
       { label: "Demo", url: "https://liu-tianchi.github.io/EmoTra_DemoPage/" },
@@ -522,6 +523,8 @@ const OPENSOURCE = [
     en: "Large-scale audio instruction-tuning dataset.", zh: "大规模音频指令微调数据集。" },
   { name: "Nes2Net", repo: "Liu-Tianchi/Nes2Net",
     en: "Lightweight anti-spoofing backbone (TIFS'25).", zh: "轻量级反欺骗骨干网络（TIFS'25）。" },
+  { name: "EmoTra-TTS", repo: "Liu-Tianchi/EmoTra-TTS",
+    en: "Smooth intra-utterance emotion transitions for TTS (EMNLP'26).", zh: "语音合成的句内平滑情感过渡（EMNLP'26）。" },
 ];
 
 /* ----------------------------------------------------------------------- */
